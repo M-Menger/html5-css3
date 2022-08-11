@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #f6d284;
+    --cor02: #f8da6C;
+    --cor03: #d1a241;
+    --cor04: #bf5111;
+}
+
+body {
+    background-color: darkgray;
+    
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
+    min-width: 150px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+header > h1 {
+    color: var(--cor04);
+    text-align: center;
+}
+
+nav {
+    color: white;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition-duration: 0.7s;    
+}
+
+nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor04);
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: var(--cor01);
+    border-radius: 10px;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin-bottom: 30px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+main > h2, h3 {
+    padding: 10px;
+}
+
+main > p {
+    text-align:justify;
+    text-indent: 2em;
+}
+
+main img {
+    width: 100%;
+}
+
+aside {
+    padding: 10px;
+}
+
+a {
+    color: black;
+    font-size: bold;
+    text-decoration: none;
+}
+footer {
+    background-image: linear-gradient(to top, var(--cor03), var(--cor01));
+    color: var(--cor04);
+    padding: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
